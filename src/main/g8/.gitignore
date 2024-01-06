@@ -18,6 +18,7 @@ dist
 .project
 .bloop
 .metals/
+build/
 .scala_build/
 /RUNNING_PID
 .settingsz
