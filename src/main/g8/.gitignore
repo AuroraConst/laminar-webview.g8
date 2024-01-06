@@ -2,8 +2,8 @@ node_modules/
 
 # scala related
 logs
-webview-ui/project/**
-webview-ui/target/**
+webview/project/**
+webview/target/**
 project/target
 target
 tmp
