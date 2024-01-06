@@ -7,21 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
 # scala related
 logs
 project/project
@@ -29,18 +14,7 @@ project/target
 target
 tmp
 .bsp/
-.history
-dist
-.idea
-*.iml
-/out
-.idea_modules
-.classpath
-.project
-.bloop
-.metals/
-.scala_build/
-/RUNNING_PID
-.settingsz
 .DS_Store
+.metals/
+.vscode/
 null
