@@ -37,7 +37,7 @@ Run the Scala.js fast link command in sbt to actively compile the code from scal
 ```
 # Navigate into webview scala project
 cd vscode-laminar-vite-extension
-cd webview-ui
+cd webview
 
 # Start the sbt console
 sbt
