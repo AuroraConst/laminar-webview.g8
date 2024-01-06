@@ -1,4 +1,4 @@
-package livechart
+package $organization$
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.*

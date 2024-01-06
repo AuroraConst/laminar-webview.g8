@@ -1,4 +1,4 @@
-package livechart
+package $organization$
 
 import org.scalatest._
 import wordspec._
