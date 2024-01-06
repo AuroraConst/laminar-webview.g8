@@ -33,7 +33,7 @@ def cellTextInput(gd:GridData): HtmlElement =
       }
     e.keyCode match
     case 40 =>  //down cursor
-      // dom.window.console.log(s"down ${gd.coordinate}down*down*down* ")
+      // dom.window.console.log(s"down \${gd.coordinate}down*down*down* ")
       htmlInputFocus( gd.coordinate.addY(1) )
     case 38 => //up cursor
       htmlInputFocus( gd.coordinate.addY(-1) )
@@ -42,7 +42,7 @@ def cellTextInput(gd:GridData): HtmlElement =
     case 39 => //right cursor
       htmlInputFocus( gd.coordinate.addX(+1) )
     case 9 => //tab
-      dom.window.console.log(s"tabbed ${gd.coordinate}tab tab tab ")
+      dom.window.console.log(s"tabbed \${gd.coordinate}tab tab tab ")
 
     case _ => ()
     ),
