@@ -12,8 +12,9 @@ import org.aurora.model.v2.utils.{*,given}
 
 @main
 def LiveChart(): Unit =
+  lazy val rootElement = dom.document.getElementById("root")
   renderOnDomContentLoaded(
-    dom.document.getElementById("app"),
+    rootElement,
     Main.appElement()
   )
 end LiveChart
