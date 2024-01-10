@@ -35,9 +35,6 @@ Once the sample is open inside VS Code you can run the extension by doing the fo
 ### Scala.js side
 Run the Scala.js fast link command in sbt to actively compile the code from scala to javascript on every save:
 ```
-# Navigate into webview scala project
-cd vscode-laminar-vite-extension
-cd webview
 
 # Start the sbt console
 sbt
@@ -53,3 +50,8 @@ npm run start:webview
 ```
 ### Testing in the extension
 Once you are happy with the frontend UI on the vite side, run the build script from the 'Run the Sample' section and hit F5 to view the webview in the extension.
+npm run build:webview
+
+
+### compiling Extension code
+npm run compile
